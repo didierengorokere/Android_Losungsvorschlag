@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright © 2017-2022
+ * Merz Information and Communication Technology AG.
+ * All rights reserved.
+ *
+ * C015-DE
+ * Entwicklung von Mobile Apps mit Android: Programmiersprache Java
+-->
+
+<resources>
+  <string
+      name="app_name"
+      translatable="false">BMI</string>
+  <string
+      name="button_home_open_calculator_text">Open BMI Calculator</string>
+  <string
+      name="label_home_description_text">The body mass index (BMI) or Quetelet index is a value derived from the mass (or weight) and height of an individual. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m<sup><small>2</small></sup>, resulting from mass in kilograms and height in metres.</string>
+  <string
+      name="label_home_title_text"
+      translatable="false">Body Mass Index</string>
+  <string-array
+      name="bmi_rating_descriptions">
+    <item>very severely underweight</item>
+    <item>severely underweight</item>
+    <item>moderately underweight</item>
+    <item>slightly underweight</item>
+    <item>normal (healthy weight)</item>
+    <item>overweight</item>
+    <item>moderately obese (class I)</item>
+    <item>severely obese (class II)</item>
+    <item>very severely obese (class II)</item>
+  </string-array>
+</resources>

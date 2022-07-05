@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright © 2017-2022
+ * Merz Information and Communication Technology AG.
+ * All rights reserved.
+ *
+ * C015-DE
+ * Entwicklung von Mobile Apps mit Android: Programmiersprache Java
+-->
+
+<resources>
+  <string
+      name="button_home_open_calculator_text">BMI-Rechner öffnen</string>
+  <string
+      name="label_home_description_text">Der Body-Mass-Index – auch Körpermasseindex (KMI), Körpermassenzahl (KMZ) oder Quetelet-Kaup-Index – ist eine Masszahl für die Bewertung des Körpergewichts eines Menschen in Relation zu seiner Körpergrösse. Sie wurde 1832 von Adolphe Quetelet sowie nach dem Ersten Weltkrieg von Ignaz Kaup entwickelt.</string>
+  <string-array
+      name="bmi_rating_descriptions">
+    <item>sehr stark untergewichtig</item>
+    <item>stark untergewichtig</item>
+    <item>mässig untergewichtig</item>
+    <item>leicht untergewichtig</item>
+    <item>normalgewichtig</item>
+    <item>übergewichtig</item>
+    <item>mässig fettleibig (Grad I)</item>
+    <item>stark fettleibig (Grad II)</item>
+    <item>sehr stark fettleibig (Grad III)</item>
+  </string-array>
+</resources>

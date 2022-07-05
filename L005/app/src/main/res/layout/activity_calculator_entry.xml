@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright © 2017-2022
+ * Merz Information and Communication Technology AG.
+ * All rights reserved.
+ *
+ * C015-DE
+ * Entwicklung von Mobile Apps mit Android: Programmiersprache Java
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculator.EntryActivity">
+  <TextView
+      android:id="@+id/label_calculator_entry_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Calculator Entry"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintVertical_bias="0.1"/>
+  <TextView
+      android:id="@+id/label_calculator_entry_height"
+      android:layout_width="0sp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20sp"
+      android:labelFor="@id/number_calculator_entry_height"
+      android:text="My Height (in cm):"
+      android:textSize="16sp"
+      app:layout_constraintHorizontal_chainStyle="spread_inside"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toStartOf="@id/number_calculator_entry_height"
+      app:layout_constraintTop_toBottomOf="@id/label_calculator_entry_title"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintVertical_bias="0.2"/>
+  <EditText
+      android:id="@+id/number_calculator_entry_height"
+      android:layout_width="0sp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20sp"
+      android:layout_marginEnd="20sp"
+      android:inputType="numberDecimal"
+      app:layout_constraintStart_toEndOf="@id/label_calculator_entry_height"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/label_calculator_entry_title"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintBaseline_toBaselineOf="@id/label_calculator_entry_height"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintVertical_bias="0.2"/>
+  <TextView
+      android:id="@+id/label_calculator_entry_weight"
+      android:layout_width="0sp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20sp"
+      android:labelFor="@id/number_calculator_entry_weight"
+      android:text="My Weight (in kg):"
+      android:textSize="16sp"
+      app:layout_constraintHorizontal_chainStyle="spread_inside"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toStartOf="@id/number_calculator_entry_weight"
+      app:layout_constraintTop_toBottomOf="@id/label_calculator_entry_title"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintVertical_bias="0.3"/>
+  <EditText
+      android:id="@+id/number_calculator_entry_weight"
+      android:layout_width="0sp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20sp"
+      android:layout_marginEnd="20sp"
+      android:inputType="numberDecimal"
+      app:layout_constraintStart_toEndOf="@id/label_calculator_entry_weight"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/label_calculator_entry_title"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintBaseline_toBaselineOf="@id/label_calculator_entry_weight"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintVertical_bias="0.3"/>
+  <Button
+      android:id="@+id/button_calculator_entry_clear_values"
+      android:layout_width="0sp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="30sp"
+      android:text="Clear All Values"
+      app:layout_constraintHorizontal_chainStyle="spread_inside"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toStartOf="@id/button_calculator_entry_compute_bmi"
+      app:layout_constraintTop_toBottomOf="@id/label_calculator_entry_title"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintVertical_bias="0.8"/>
+  <Button
+      android:id="@+id/button_calculator_entry_compute_bmi"
+      android:layout_width="0sp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="30sp"
+      android:layout_marginEnd="30sp"
+      android:text="Compute My BMI"
+      app:layout_constraintStart_toEndOf="@id/button_calculator_entry_clear_values"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/label_calculator_entry_title"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintVertical_bias="0.8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

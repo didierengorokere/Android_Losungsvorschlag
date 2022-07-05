@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright © 2017-2022
+ * Merz Information and Communication Technology AG.
+ * All rights reserved.
+ *
+ * C015-DE
+ * Entwicklung von Mobile Apps mit Android: Programmiersprache Java
+-->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_general">
+  <item
+      android:id="@+id/menu_general_home"
+      android:title="Home"/>
+  <item
+      android:id="@+id/menu_general_calculator"
+      android:title="Calculator"/>
+  <item
+      android:id="@+id/menu_general_rating"
+      android:title="Rating" />
+  <item
+      android:id="@+id/menu_general_history"
+      android:title="History" />
+  <item
+      android:id="@+id/menu_general_settings"
+      android:title="Settings"/>
+</menu>
